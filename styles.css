@@ -1,0 +1,152 @@
+body{
+  text-align: center;
+}
+h3{
+  display: inline;
+  font-family: 'Montserrat',sans-serif;
+  font-weight:900;
+  line-height: 2;
+  font-size: 2.5rem;
+}
+
+h5{
+  display: inline;
+  margin: 0 10px;
+  color: darkred;
+}
+
+
+
+p{
+  display: inline-flex;
+  font-family: 'Mochiy Pop One', sans-serif;
+  line-height: 2;
+  font-size: 2.5rem;
+}
+.gameInfo{
+margin-left: 60px;
+margin-top: 160px;
+height: 200px;
+width: 500px;
+white-space: nowrap;
+
+}
+.techDiv{
+  font-family: 'Montserrat',sans-serif;
+  font-weight:200;
+  line-height: 2;
+  font-size: 1.5rem;
+  display: inline;
+
+}
+.techDiv2{
+display: inline;
+color: darkred;
+
+}
+
+.madeBy{
+  font-family: 'Montserrat',sans-serif;
+  color: darkgrey;
+  font-weight:700;
+  line-height: 2;
+  font-size: 1.2rem;
+  display: block;
+
+  padding-top: 20px;
+  margin-left: 130px;
+}
+
+.bigContainer{
+  width: 90%;
+  margin: auto;
+}
+.headContainer{
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+}
+.gameContainer{
+  padding: 2% 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+.squaresContainer{
+width: 510px;
+height: 540px;
+display: inline;
+
+}
+
+.players{
+  border-left: 6px dotted grey;
+  border-right: 1px solid grey;
+  width: 400px;
+  height: 340px;
+  margin-left: 100px;
+  margin-top: 80px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline;
+  font-size: 3.2rem;
+  line-height: 2;
+    font-family: 'Mochiy Pop One', sans-serif;
+    white-space: nowrap;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.nameX{
+  color: purple;
+  text-align: center;
+}
+.vs{
+  color: darkgrey;
+
+}
+.nameO{
+  color: orange;
+  text-align: center;
+}
+.buttonContainer{
+  padding-top: 20px;
+  padding-bottom: 40px;
+/* margin-left: 164px; */
+}
+.btn{
+  margin: 0 30px;
+}
+.restartButton{
+
+}
+.startButton{
+}
+
+.square{
+  border: 1px solid black;
+  font-family: 'Montserrat',sans-serif;
+  background-color: powderblue;
+  font-size: 10rem;
+  text-align: center;
+  line-height: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+}
+
+div{
+  user-select: none; /* standard syntax */
+ -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+ -moz-user-select: none; /* mozilla browsers */
+ -khtml-user-select: none; /* webkit (konqueror) browsers */
+ -ms-user-select: none; /* IE10+ */
+}
+.noHighlighting{
+  user-select: none; /* standard syntax */
+ -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+ -moz-user-select: none; /* mozilla browsers */
+ -khtml-user-select: none; /* webkit (konqueror) browsers */
+ -ms-user-select: none; /* IE10+ */
+}
