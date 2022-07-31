@@ -1,2 +1,2 @@
 # TicTacToe-1st-Project-ever
-First JavaScript project ever.
+This was my first JavaScript project I made since I started a programming online course.
